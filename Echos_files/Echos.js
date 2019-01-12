@@ -1,0 +1,11 @@
+// Created by iWeb 2.0.4 local-build-20110723
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_1:new IWPhotoFrame([IWCreateImage('Echos_files/Modern_C_TL.png'),IWCreateImage('Echos_files/Modern_S_T.png'),IWCreateImage('Echos_files/Modern_C_TR.png'),IWCreateImage('Echos_files/Modern_S_R.png'),IWCreateImage('Echos_files/Modern_C_BR.png'),IWCreateImage('Echos_files/Modern_S_B.png'),IWCreateImage('Echos_files/Modern_C_BL.png'),IWCreateImage('Echos_files/Modern_S_L.png')],null,2,0.700000,0.000000,0.000000,0.000000,0.000000,17.000000,17.000000,17.000000,20.000000,40.000000,40.000000,40.000000,240.000000,null,null,null,0.100000),stroke_2:new IWPhotoFrame([IWCreateImage('Echos_files/Modern_C_TL.png'),IWCreateImage('Echos_files/Modern_S_T.png'),IWCreateImage('Echos_files/Modern_C_TR.png'),IWCreateImage('Echos_files/Modern_S_R.png'),IWCreateImage('Echos_files/Modern_C_BR.png'),IWCreateImage('Echos_files/Modern_S_B.png'),IWCreateImage('Echos_files/Modern_C_BL.png'),IWCreateImage('Echos_files/Modern_S_L.png')],null,2,0.700000,0.000000,0.000000,0.000000,0.000000,17.000000,17.000000,17.000000,20.000000,40.000000,40.000000,40.000000,240.000000,null,null,null,0.100000),stroke_0:new IWPhotoFrame([IWCreateImage('Echos_files/Modern_C_TL.png'),IWCreateImage('Echos_files/Modern_S_T.png'),IWCreateImage('Echos_files/Modern_C_TR.png'),IWCreateImage('Echos_files/Modern_S_R.png'),IWCreateImage('Echos_files/Modern_C_BR.png'),IWCreateImage('Echos_files/Modern_S_B.png'),IWCreateImage('Echos_files/Modern_C_BL.png'),IWCreateImage('Echos_files/Modern_S_L.png')],null,2,0.700000,0.000000,0.000000,0.000000,0.000000,17.000000,17.000000,17.000000,20.000000,40.000000,40.000000,40.000000,240.000000,null,null,null,0.100000),shadow_0:new IWShadow({blurRadius:3,offset:new IWPoint(0.1736,0.9848),color:'#817b67',opacity:0.700000})});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('Echos_files/EchosMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');adjustLineHeightIfTooBig('id3');adjustFontSizeIfTooBig('id3');Widget.onload();fixAllIEPNGs('Media/transparent.gif');applyEffects()}
+function onPageUnload()
+{Widget.onunload();}

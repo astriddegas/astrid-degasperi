@@ -1,0 +1,11 @@
+// Created by iWeb 2.0.4 local-build-20110723
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({stroke_2:new IWPhotoFrame([IWCreateImage('Leseproben_files/Modern_C_TL.png'),IWCreateImage('Leseproben_files/Modern_S_T.png'),IWCreateImage('Leseproben_files/Modern_C_TR.png'),IWCreateImage('Leseproben_files/Modern_S_R.png'),IWCreateImage('Leseproben_files/Modern_C_BR.png'),IWCreateImage('Leseproben_files/Modern_S_B.png'),IWCreateImage('Leseproben_files/Modern_C_BL.png'),IWCreateImage('Leseproben_files/Modern_S_L.png')],null,2,1.000000,0.000000,0.000000,0.000000,0.000000,17.000000,17.000000,17.000000,20.000000,40.000000,40.000000,40.000000,240.000000,null,null,null,0.100000),stroke_0:new IWPhotoFrame([IWCreateImage('Leseproben_files/Modern_C_TL.png'),IWCreateImage('Leseproben_files/Modern_S_T.png'),IWCreateImage('Leseproben_files/Modern_C_TR.png'),IWCreateImage('Leseproben_files/Modern_S_R.png'),IWCreateImage('Leseproben_files/Modern_C_BR.png'),IWCreateImage('Leseproben_files/Modern_S_B.png'),IWCreateImage('Leseproben_files/Modern_C_BL.png'),IWCreateImage('Leseproben_files/Modern_S_L.png')],null,2,1.000000,0.000000,0.000000,0.000000,0.000000,17.000000,17.000000,17.000000,20.000000,40.000000,40.000000,40.000000,240.000000,null,null,null,0.100000),stroke_1:new IWPhotoFrame([IWCreateImage('Leseproben_files/Modern_C_TL.png'),IWCreateImage('Leseproben_files/Modern_S_T.png'),IWCreateImage('Leseproben_files/Modern_C_TR.png'),IWCreateImage('Leseproben_files/Modern_S_R.png'),IWCreateImage('Leseproben_files/Modern_C_BR.png'),IWCreateImage('Leseproben_files/Modern_S_B.png'),IWCreateImage('Leseproben_files/Modern_C_BL.png'),IWCreateImage('Leseproben_files/Modern_S_L.png')],null,2,1.000000,0.000000,0.000000,0.000000,0.000000,17.000000,17.000000,17.000000,20.000000,40.000000,40.000000,40.000000,240.000000,null,null,null,0.100000)});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('Leseproben_files/LeseprobenMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');adjustLineHeightIfTooBig('id2');adjustFontSizeIfTooBig('id2');Widget.onload();fixAllIEPNGs('Media/transparent.gif');applyEffects()}
+function onPageUnload()
+{Widget.onunload();}
